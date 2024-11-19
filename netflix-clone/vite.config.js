@@ -10,4 +10,5 @@ export default defineConfig({
   proxy: {
     '/api': 'https://api.themoviedb.org',
   },
+  base: '/Netflix-clone/',
 })
