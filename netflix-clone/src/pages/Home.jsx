@@ -1,10 +1,14 @@
 import Header from "../components/Header";
-import Footer from "../components/Footer"
+import Banner from '../components/Banner';
+import Footer from "../components/Footer";
+import RowList from '../components/Rows/RowList';
 
 const Home = () => {
     return (
         <>
             <Header />
+            < Banner />
+            <RowList/>
             <Footer />
         </>
     )

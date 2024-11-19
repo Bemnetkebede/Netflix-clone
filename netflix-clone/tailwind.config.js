@@ -13,7 +13,11 @@ export default {
         playfair: ['Playfair Display', 'serif'],
       }
     },
+    
   },
-  plugins: [],
+
+  plugins: [
+      require('tailwind-scrollbar')({ nocompatible: true }),
+    ],
 }
 
