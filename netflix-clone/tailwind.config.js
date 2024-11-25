@@ -1,4 +1,5 @@
 // @type {import('tailwindcss').Config} 
+import tailwindScrollbar from 'tailwind-scrollbar';
 export default {
   content: [
     "./index.html",
@@ -13,7 +14,7 @@ export default {
         playfair: ['Playfair Display', 'serif'],
       },
       backgroundImage: {
-        'custom-gradient': 'linear-gradient(180deg, transparent, rgba(37,37,37,0.91), #111)',
+        'custom-gradient': 'linear-gradient(180deg, transparent, rgba(37,37,36,0.90), #111)',
         
     },
     },
@@ -21,7 +22,9 @@ export default {
   },
 
   plugins: [
-      require('tailwind-scrollbar')({ nocompatible: true }),
+      // require('tailwind-scrollbar')({ nocompatible: true }),
+      tailwindScrollbar({ nocompatible: true }),
+      
     ],
 }
 
