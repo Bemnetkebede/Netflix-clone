@@ -38,7 +38,7 @@ const Banner = () => {
                 
                 className="bg-cover bg-center h-[535px] "
                 >
-                <div className='ml-12 pt-60 space-y-3'>
+                <div className='ml-12 pt-64 space-y-3'>
                     <div className='text-2xl text-white font-bold '>
                     {Movies?.name || Movies?.original_name}
                     </div>
@@ -50,7 +50,7 @@ const Banner = () => {
                         {truncate(Movies?.overview, 120)}
                     </div>
                 </div>
-                {/* <div className='absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50 backdrop-blur-lg'></div> */}
+                <div className=' relative inset-y-2 bottom-0 h-28 bg-custom-gradient z-20'></div>
             </div>
         </>
     )

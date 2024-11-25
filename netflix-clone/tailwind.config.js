@@ -11,7 +11,11 @@ export default {
         lexend: ['Lexend', 'sans-serif'],
         monsieur: ['Monsieur La Doulaise', 'serif'], // Add this line
         playfair: ['Playfair Display', 'serif'],
-      }
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(180deg, transparent, rgba(37,37,37,0.91), #111)',
+        
+    },
     },
     
   },
